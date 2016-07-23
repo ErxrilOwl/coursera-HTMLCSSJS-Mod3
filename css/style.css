@@ -39,7 +39,6 @@ body {
   background: white;
 }
 
-
 .container .text-center > h2{
 	font-size: 300%;
 }
@@ -69,4 +68,24 @@ section .block p > a{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+}
+
+@media (max-width: 767px) {
+ 
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
 }
